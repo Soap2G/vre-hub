@@ -33,7 +33,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  plugins: ['@docusaurus/theme-live-codeblock'],
   presets: [
     [
       'classic',
@@ -64,6 +64,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      prism: {
+        // theme: prismThemes.dracula,
+        additionalLanguages: ['bash','ini'],
+      },
       // Replace with your project's social card
       image: 'img/logo.png',
       navbar: {
