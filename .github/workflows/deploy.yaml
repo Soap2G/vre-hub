@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-    # Review gh actions docs if you want to further define triggers, paths, etc
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+    # Review gh actions docs if you want to further define triggers, paths, et
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#o
 
 jobs:
   deploy:
@@ -16,12 +16,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.15
-          cache: yarn
+          cache: npm
 
       - name: Install dependencies
-        run: yarn install
+        run: npm install
       - name: Build website
-        run: yarn build
+        run: npm build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
