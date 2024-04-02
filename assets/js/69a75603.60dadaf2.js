@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvre_hub=self.webpackChunkvre_hub||[]).push([[78],{4033:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/vre-hub/blog/tags/hola","allTagsPath":"/vre-hub/blog/tags","count":1,"unlisted":false}')}}]);
