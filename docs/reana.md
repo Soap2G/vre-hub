@@ -33,7 +33,7 @@ and note where the proxy file gets saved, the default path should be `/tmp/x509u
 
 ### Connect to a custom Rucio instance
 
-The VRE Rucio instance is only one of the many instances existing around the world. In order to connect to a custom Rucio instance, you need an x509 certificate to use with the VOMS of your organisation. Once you have it, you can import it in the [jhub-vre.cern.ch](jhub-vre.cern.ch). You can then run the `voms-proxy-init` with any VO by first sourcing the CVMFS file:
+The VRE Rucio instance is only one of the many instances existing around the world. In order to connect to a custom Rucio instance, you need an x509 certificate to use with the VOMS of your organisation. Once you have it, you can import it in the [jhub-vre.cern.ch](https://jhub-vre.cern.ch). You can then run the `voms-proxy-init` with any VO by first sourcing the CVMFS file:
 
 ```
 $ source /cvmfs/grid.cern.ch/centos7-ui-160522/etc/profile.d/setup-c7-ui-example.sh 

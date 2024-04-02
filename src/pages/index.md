@@ -26,12 +26,12 @@ The deployment of the Virtual Research Environment is open-source and modular, i
 The Science Projects which are using the VRE are described [here](https://escape2020.pages.in2p3.fr/virtual-environment/home/). 
 
 If you are a scientist or a new user curious to use the above resources, please refer to the following documentation:  
-1. **[AAI](docs/auth.md)**
-2. **[Rucio Data Lake](docs/rucio.md)**
-3. **[Reana cluster](docs/reana.md)**
-4. **[Notebook service](docs/notebook.md)**
+1. **[AAI](/docs/auth)**
+2. **[Rucio Data Lake](/docs/rucio)**
+3. **[Reana cluster](/docs/reana)**
+4. **[Notebook service](/docs/notebook)**
 
-If you want to deploy the VRE on your own infrastructure, of you want to submit an issue to help us improve the platform, please follow the [developer documentation](docs/developer.md). 
+If you want to deploy the VRE on your own infrastructure, of you want to submit an issue to help us improve the platform, please follow the [developer documentation](/docs/developer). 
  
 ## Contact
 To contact the CERN VRE team with questions, doubts, problems accessing the meetings Indico category or the monitoring dashboards, please join the **[Slack channel](https://join.slack.com/t/vre-cern/shared_invite/zt-281r0dyw2-gDuDzDaNcaKfIM_Sf2T9OA)**. For more formal requests, i.e. conferences, webinars and events presentations, please email us at *escape-cern-ops@cern.ch*. 
