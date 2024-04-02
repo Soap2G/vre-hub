@@ -24,4 +24,3 @@ yarn-error.log*
 .pnp.*
 
 yarn.lock
-package-lock.json
