@@ -77,11 +77,35 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'GetStarted',
+          //   position: 'left',
+          //   label: 'Get started',
+          // },
           {
-            type: 'docSidebar',
-            sidebarId: 'GetStarted',
+            type: 'doc', // This is a preset regarding the type of document, please update if needed
+            docId: 'auth', // The ID of the corresponding document. This should match with what you wrote in the document header.
             position: 'left',
-            label: 'Get started',
+            label: 'AAI', // The title that will appear on the menu
+          },
+          {
+            type: 'doc', // This is a preset regarding the type of document, please update if needed
+            docId: 'rucio', // The ID of the corresponding document. This should match with what you wrote in the document header.
+            position: 'left',
+            label: 'Rucio', // The title that will appear on the menu
+          },
+          {
+            type: 'doc', // This is a preset regarding the type of document, please update if needed
+            docId: 'reana', // The ID of the corresponding document. This should match with what you wrote in the document header.
+            position: 'left',
+            label: 'REANA', // The title that will appear on the menu
+          },
+          {
+            type: 'doc', // This is a preset regarding the type of document, please update if needed
+            docId: 'notebook', // The ID of the corresponding document. This should match with what you wrote in the document header.
+            position: 'left',
+            label: 'JupyterHub', // The title that will appear on the menu
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
